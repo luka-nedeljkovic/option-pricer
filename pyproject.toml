@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "option-pricer"
 version = "0.1.0"
-description = "European option pricing: Black-Scholes closed form, Monte Carlo and finite differences."
+description = "European option pricing under Black-Scholes: closed form and Monte Carlo with variance reduction."
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [{ name = "Luka Nedeljkovic" }]
