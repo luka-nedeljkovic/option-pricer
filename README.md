@@ -28,11 +28,11 @@ Under the risk-neutral measure, the underlying follows a geometric Brownian
 motion, so that
 
 $$
-S_T = S_0 \exp\left( \left(r - \tfrac{1}{2}\sigma^2\right) T + \sigma \sqrt{T}\, Z \right), \qquad Z \sim \mathcal{N}(0, 1).
+S_T = S_0 \exp\left( \left(r - \tfrac{1}{2}\sigma^2\right) T + \sigma \sqrt{T} Z \right), \qquad Z \sim \mathcal{N}(0, 1).
 $$
 
 The price of a European option is the discounted expected payoff,
-$V_0 = e^{-rT}\,\mathbb{E}[\text{payoff}(S_T)]$. Conventions: $T$ in years, $r$
+$V_0 = e^{-rT} \mathbb{E}[\text{payoff}(S_T)]$. Conventions: $T$ in years, $r$
 and $\sigma$ annualised, continuous compounding, no dividends.
 
 ## Quick start
